@@ -93,6 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Continuation\ContinuationMinimod.cs" />
+    <Compile Include="String2Enum\String2EnumMinimod.cs" />
     <Compile Include="HttpMessageStream\HttpContext.cs" />
     <Compile Include="HttpMessageStream\HttpMessageProcessorMinimod.cs" />
     <Compile Include="HttpMessageStream\HttpMessageStreamMinimod.cs" />
@@ -189,6 +190,7 @@
     <None Include="EventSourcing\RxEventSourcingMinimod.nuspec" />
     <None Include="RxEventRepository\RxEventRepositoryMinimod.nuspec" />
     <None Include="RxMessageBroker\RxMessageBrokerMinimod.nuspec" />
+    <None Include="String2Enum\String2EnumMinimod.nuspec" />
     <None Include="ThreadVariable\Minimod.ThreadVariable.0.9.nupkg" />
     <None Include="ThreadVariable\ThreadVariableMinimod.nuspec" />
     <None Include="WebSocketMessageStream\WebSocketMessageStreamMinimod.nuspec" />
@@ -201,6 +203,7 @@
     <Content Include="WebSocketMessageStream\client.html" />
     <Content Include="WebSocketMessageStream\modernizr.js" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
