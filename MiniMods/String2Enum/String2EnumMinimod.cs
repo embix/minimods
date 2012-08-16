@@ -17,7 +17,7 @@ namespace Minimod.String2Enum
         usage:
         <code>  
          var userInput = "Monday";
-         var selectedWeekday = userInput.ToEnum<Weekday>();
+         var selectedWeekday = userInput.ToEnum&lt;Weekday&gt;();
          Assert.AreEqual(Weekday.Monday, selectedWeekday);  
         </code>
         </summary>
